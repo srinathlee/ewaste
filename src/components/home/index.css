@@ -1,0 +1,141 @@
+.home-bg-container{
+    background-image:radial-gradient(white,#A7C7E7) ;
+    padding:20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+.main-heading{
+    font-size: 60px;
+}
+.special-text{
+    color:green;
+}
+.from-bg-container{
+    border-radius: 5px;
+    border:1px solid green;
+    padding:20px;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input{
+    border:none;
+    outline: none;
+    height:30px;
+    width:250px;
+    border-radius: 2px;
+    padding:5px;
+    background-color: transparent;
+    border:1px solid black;
+
+}
+.label{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.widget-bg-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+.submit-btn{
+    height:30px;
+    width:100px;
+    color:white;
+    background-color: green;
+    border:none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.footer-bg-container{
+    background-color:#111111;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icon{
+    color:white;
+    font-size: 30px;
+    margin-right: 15px;
+}
+.followus-heading{
+    font-size: 15px;
+    color:white;
+    margin-bottom: 10px;
+}
+.terms-policy-para{
+    font-size: 15px;
+    color:white;
+    margin-bottom: 10px; 
+}
+
+.copywite-heading{
+    font-size: 15px;
+    color:white;
+    margin-bottom: 10px; 
+}
+.copywite-icon{
+padding-top: 20px;
+font-size: 35px;
+}
+.aboutus-bg-container{
+    background-image:radial-gradient(white,#A7C7E7) ;
+    padding:20px;
+    height: 100vh; 
+}
+.about-image{
+    width:400px;
+
+}
+.about-heading{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.about-para{
+    font-size: 15px;
+    color:#111111;
+    margin-bottom: 30px;
+}
+.aboutus-bg-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-btn{
+    height:40px;
+    width:100px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid green;
+}
+
+@media(max-width:600px){
+    .home-bg-container{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .from-bg-container{
+        border-radius: 5px;
+        border:1px solid green;
+        padding:20px;
+        width:300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
