@@ -6,7 +6,7 @@ import './index.css'
 
 const Home=()=>(
 <>
-    <div className="home-bg-container">
+    <div id="#" className="home-bg-container">
      
      <h1 className='main-heading'>Keep <span className='special-text'>e-waste</span><br/> out of your <span className='special-text'>trash!</span></h1>
      
