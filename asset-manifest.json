@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ewaste/static/css/main.cfca4e8e.css",
+    "main.js": "/ewaste/static/js/main.096b4420.js",
+    "static/js/787.d3befce1.chunk.js": "/ewaste/static/js/787.d3befce1.chunk.js",
+    "index.html": "/ewaste/index.html",
+    "main.cfca4e8e.css.map": "/ewaste/static/css/main.cfca4e8e.css.map",
+    "main.096b4420.js.map": "/ewaste/static/js/main.096b4420.js.map",
+    "787.d3befce1.chunk.js.map": "/ewaste/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfca4e8e.css",
+    "static/js/main.096b4420.js"
+  ]
+}
