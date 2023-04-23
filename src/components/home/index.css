@@ -1,3 +1,8 @@
+*{
+    padding:0;
+    margin:0;
+}
+
 .home-bg-container{
     background-image:radial-gradient(white,#A7C7E7) ;
     padding:20px;
@@ -57,9 +62,18 @@
 
 .footer-bg-container{
     background-color:#111111;
-    padding:20px;
+    width:100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+.copy-right-bg-container{
+    background-color: #333333;
+    padding:10px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -91,21 +105,28 @@ font-size: 35px;
 .aboutus-bg-container{
     background-image:radial-gradient(white,#A7C7E7) ;
     padding:20px;
+    width:100%;
     height: 100vh; 
 }
 .about-image{
-    width:400px;
-
+    width:40%;
 }
 .about-heading{
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 30px;
+    color:black;
+}
+.us{
+    color:green;
 }
 .about-para{
     font-size: 15px;
-    color:#111111;
+    color:balck;
+    width:600px;
+    font-family:monospace;
     margin-bottom: 30px;
+    line-height: 1.4;
 }
 .aboutus-bg-container{
     display: flex;
@@ -119,9 +140,67 @@ font-size: 35px;
     border-radius: 10px;
     background-color: transparent;
     border: 1px solid green;
+    cursor: pointer;
+}
+
+
+.b-detail{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.b-detail-heading{
+    font-size: 15px;
+    color:white;
+}
+.b-detail-para{
+    font-size: 12px;
+    color:white;  
+}
+.get-on-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.geton-images-bg{
+    display: flex;
+
+}
+.get-on-image{
+    height:40px;
+    width:160px;
+    margin-right: 10px;
+  
+}
+.get-app-heading{
+    margin-bottom: 10px;
+    color:darkgreen;
+}
+
+.vl{
+    border:0.5px solid lightgoldenrodyellow ;
+    height:160px;
+}
+
+.details-bg-container{
+    width: 100%;
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+
+}
+.basic-details-container{
+    /* margin-right: 20px; */
 }
 
 @media(max-width:600px){
+    .about-para{
+        font-size: 10px;
+        width:100%;
+    }
     .home-bg-container{
         
         display: flex;
@@ -138,4 +217,34 @@ font-size: 35px;
         flex-direction: column;
         align-items: center;
     }
+    .details-bg-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .vl{
+        display: none;
+    }
+    .basic-details-container{
+        margin-bottom: 10px;
+    }
+
+    .aboutus-bg-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-image{
+        width:80%;
+    }
+    .geton-images-bg{
+       margin-bottom: 40px;
+    
+    }
+    .main-heading{
+        font-size: 50px;
+        margin-left: 20px;
+    }
+}
+.social-icon :hover{
+    color:green;
 }

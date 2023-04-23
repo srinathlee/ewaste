@@ -17,8 +17,8 @@ return(
         <h1 className='logo'>EW</h1>
         <nav  ref={nav} className='nav-bg-container'>
           <a  href="/">home</a>
-          <a href="/about">aboutUs</a>
-          <a href="/contact">contactUs</a>
+          <a href="/#about">aboutUs</a>
+          <a href="/#contact">contactUs</a>
           <button className='sign-up-button'>SignUp</button>
           <button onClick={responsiveNav} className='nav-btn close-btn'><FaTimes/></button>
         </nav>
